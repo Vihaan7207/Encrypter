@@ -6,4 +6,12 @@ import chalkAnimation from 'chalk-animation'
 
 let msg;
 
-const sleep = (ms = 2000) => new Promise((r) => setTimeout(r, ms));
+const sleep = (m = 2) => new Promise((r) => setTimeout(r, s * 1000));
+
+const welcome = async () => {
+    const rainbowTitle = chalkAnimation.rainbow(
+        'JS Encrypter'
+    )
+}
+
+await welcome();
