@@ -30,6 +30,8 @@ const askMsg = async () => {
             return "Hello world!"
         }
     })
+
+    msg = message.name;
 }
 
 await welcome();
